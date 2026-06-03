@@ -1,15 +1,15 @@
-# Contribution 1: [Issue Title]
+# Contribution 1: python: Replace magic number in broker init param_count check with named constant
 
 **Contribution Number:** 1\
 **Student:** Ahnaf Ahmed\
-**Issue:** [GitHub issue link]\ 
-**Status:** Phase I In Progress
+**Issue:** [GitHub issue link](https://github.com/marketcalls/openalgo/issues/895)\
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it is written in `python` which I'm very familiar with. It covers some core concepts and best practices such as eliminating magic numbers and improving code readability which I'm very eager to contribute to. Additionally, the issue description is comprehensive with clear problem statement and expectations.
 
 ---
 
@@ -17,19 +17,23 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+This issue focuses on existing (unexplained) magic numbers scattered across multiple files, specifically in broker init param_count checks. This makes it difficult to manage/update those states and creates risks of inconsistent behavior. It also makes the code less readable.
 
 ### Expected Behavior
 
-[What should happen?]
+The dangling magic numbers should be replaced with named constants for easier state management and better readability.
 
 ### Current Behavior
 
-[What actually happens?]
+The magic numbers makes the code less reabale and poses risks for inconsistent behavior.
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+The scope of this issue is limited to broker init param_count checks in the following files:
+`services/quotes_service.py`
+`services/history_service.py`
+`services/depth_service.py`
+~5 more service files with the same pattern
 
 ---
 
