@@ -3,7 +3,7 @@
 **Contribution Number:** 1\
 **Student:** Ahnaf Ahmed\
 **Issue:** [GitHub issue link](https://github.com/marketcalls/openalgo/issues/895)\
-**Status:** Phase I Complete
+**Status:** Phase II In Progress
 
 ---
 
@@ -41,13 +41,12 @@ The scope of this issue is limited to broker init param_count checks in the foll
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+Forked the repo\
+Cloned fork to local
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+Issue (magic number) already exists in the codebase
 
 ### Reproduction Evidence
 
